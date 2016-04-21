@@ -1,0 +1,19 @@
+
+What is WebSocket protocol, how is it different from HTTP communication, what advantages does it have over HTTP?
+
+
+Ultimately, all of these methods (polling, long-polling and http streaming) involve HTTP request and response headers,
+which contain lots of additional, unnecessary header data and introduce latency. Full-duplex connectivity requires
+more than just the downstream connection from server to client. In an effort to simulate full-duplex communication
+over half-duplex HTTP, many of today's solutions use two connections: one for the downstream and one for the
+upstream. The maintenance and coordination of these two connections introduces significant overhead in terms of
+resource consumption and adds lots of complexity.
+Simply put, HTTP wasn't designed for real-time, full-duplex communication.
+
+HTML5 Web Sockets represents the next evolution of web communications—a full-duplex, bidirectional communications
+channel that operates through a single socket over the Web. HTML5 Web Sockets provides a true standard that you can
+use to build scalable, real-time web applications. In addition, since it provides a socket that is native to the
+browser, it eliminates many of the problems Comet solutions are prone to. Web Sockets removes the overhead and
+dramatically reduces complexity.
+
+

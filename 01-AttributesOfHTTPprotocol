@@ -1,0 +1,8 @@
+
+Name attributes of HTTP protocol makes it difficult to use for real time systems.
+
+
+Current attempts to provide real-time web applications largely revolve around polling and other server-side push
+technologies, the most notable of which is Comet, which delays the completion of an HTTP response to deliver messages
+to the client. Comet-based push is generally implemented in JavaScript and uses connection strategies such as
+long-polling or streaming.

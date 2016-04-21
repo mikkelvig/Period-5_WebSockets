@@ -1,0 +1,17 @@
+
+Explain and demonstrate the process of WebSocket communication - From connecting client to server,
+through sending messages, to closing connection.
+
+
+Browser send a request to server to upgrade HTTP to Web Socket and if the Server supports Websocket, it send an
+response saying ok I am upgrading your HTTP to a single long running HTTP connection. Thereafter browser and server
+starts send data frames in both directions over a TCP socket. The WebSocket protocol is designed for scenarios where
+messages need to be exchanged between browser and server at a high frequency. Yet, there are significant challenges
+since a majority of deployed browsers that do not support WebSockets.
+
+
+Image:
+https://s3.amazonaws.com/oodles-technologies1/blog-images/ws3.jpg
+
+
+http://www.oodlestechnologies.com/blogs/Introducing-websocket-(client-server-two-way-communication-or-reverse-AJAX)

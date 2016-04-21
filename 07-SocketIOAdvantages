@@ -1,0 +1,17 @@
+
+What's the advantage of using libraries like Socket.IO, Sock.JS, WS, over pure WebSocket libraries in the backend
+and standard APIs on frontend? Which problems do they solve?
+
+
+Socket.IO is an event-based bi-directional communication layer for realtime web applications, built atop Engine.IO.
+It abstracts many transports, including AJAX long-polling and WebSockets, into a single API. It allows developers to
+send and receive data without worrying about cross-browser compatibility.
+
+Advantages:
+
+Socket.IO provides both server-side and client-side components with similar APIs.
+It allows developers to send and receive data without worrying about cross-browser compatibility.
+Fallbacks to polling with incompatible browsers.
+
+
+https://nodesource.com/blog/understanding-socketio/

@@ -1,0 +1,15 @@
+
+Explain the pros & cons of using a Backend as a Service Provider like Firebase.
+
+Pros:
+- A lot of Realtime functionality is built for you (three-way binding, sockets etc.).
+- Built-in Database (JSON) and hosting.
+- Built-in Scaling
+- Built-in Security.
+- Cross Platform API (for Web, IOS, Android and utilize REST as well)
+
+
+Cons:
+- You will be relying on Firebase, and if Firebase is down, the same will be the case for your service
+- Vendor lock-in (will be a huge headache to migrate to another service)
+- Probably cheaper to self-host and build your own backend

@@ -1,0 +1,8 @@
+
+What is HTTP streaming, SSE (Server sent events)?
+
+With streaming, the browser sends a complete request, but the server sends and maintains an open response that is
+continuously updated and kept open indefinitely (or for a set period of time). The response is then updated whenever
+a message is ready to be sent, but the server never signals to complete the response, thus keeping the connection
+open to deliver future messages. Streaming includes HTTP headers which increases the file size, increasing delay.
+This can be considered as a major drawback.

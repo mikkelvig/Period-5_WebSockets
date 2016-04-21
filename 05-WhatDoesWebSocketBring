@@ -1,0 +1,8 @@
+
+Explain what the WebSocket Protocol brings to the Web-world.
+
+Normally when a browser visits a web page, an HTTP request is sent to the web server that hosts that page. The web
+server acknowledges this request and sends back the response. In many cases—for example, for stock prices, news
+reports, ticket sales, traffic patterns, medical device readings, and so on—the response could be stale by the time
+the browser renders the page. If you want to get the most up-to-date "real-time" information, you can constantly
+refresh that page manually, but that's obviously not a great solution.

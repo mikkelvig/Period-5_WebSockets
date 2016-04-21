@@ -1,0 +1,9 @@
+
+Explain and demonstrate “three-way data binding” using Firebase and Angular
+
+In AngularJS our scope model and view stay in sync thanks to the two way data binding (ng-model). When using
+FireBase as a backend, three way binding is possible. You can bind your model data to a FireBase location, so that
+whenever your models change, those changes are automatically pushed to FireBase. Similarly, whenever the data at the
+particular FireBase location changes, your local scope model is also updated. This creates a three way data binding.
+The obvious benefit is that it lets you create cool realtime apps where the data changes frequently and those
+modifications are broadcast to all the connected users.

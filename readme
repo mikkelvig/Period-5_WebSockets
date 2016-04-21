@@ -1,0 +1,11 @@
+
+Period 5 - WebSockets/Real Time Communication
+
+
+Mikkel Vig
+
+This is my hand-in for the 5. period MEAN JavaScript course.
+Each question is answered in its own file.
+
+My chat program that uses socket.io:
+https://github.com/mikkelvig/MikkelSimpleChat
